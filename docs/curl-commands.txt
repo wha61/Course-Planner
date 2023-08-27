@@ -1,0 +1,14 @@
+curl -i -X GET localhost:8080/hello
+
+*add
+curl -i -H "Content-Type: application/json" -X POST -d '{  "name": "bruce",   "statement": "I vote"  }' localhost:8080/starts
+
+*show all(list)
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/starts
+
+*get one start
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/starts/2
+
+*change one start
+curl -i -H "Content-Type: application/json" -X POST -d '{  "name": "hwx",   "statement": "I vote"  }' localhost:8080/starts/2
+
