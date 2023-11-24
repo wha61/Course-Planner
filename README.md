@@ -9,4 +9,5 @@ The server will read a locally stored CSV input file containing data about cours
 will then process the data to organize it into a well structured model. The server’s controllers will 
 provide access to this data via a REST API. 
 
-<img src="demo1.png>
+<img src="/demo1.png" alt="ttd">
+<img src="/demo2.png" alt="ttd">
